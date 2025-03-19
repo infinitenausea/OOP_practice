@@ -31,7 +31,10 @@ const DomElement = function (selector, height, width, bg, fontSize, posAbsOrStat
         width: ${this.width};
         background: ${this.bg};
         font-size: ${this.fontSize};
-        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         margin: 10px;
         box-sizing: border-box;
         border: 2px solid black;
